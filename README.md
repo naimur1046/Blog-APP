@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blog Application
 
 Welcome to the Blog Application! This application allows users to create, edit, and delete blog posts. Users can also read and comment on posts by other users. 
@@ -107,3 +108,6 @@ Contributions are welcome! Please follow these steps to contribute:
 ## Contact
 - Naimur Rahman : naimurrahman1046@gmail.com 
 - Github: naimur1046
+=======
+# This is the Client Side Implementation
+>>>>>>> Client

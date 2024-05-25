@@ -1,10 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./Pages/About";
+import HomePage from "./Pages/HomePage";
+import DashBoard from "./Pages/DashBoard";
+import Project from "./Pages/Project";
+import SignUpPage from "./Pages/SignUpPage";
+import SignInPage from "./Pages/SignInPage";
+
 function App() {
   return (
-    <>
-      <div>
-        <p className="text-4xl text-red-400">Hi man</p>
-      </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/sign-up-page" element={<SignUpPage />} />
+        <Route path="/sign-in-page" element={<SignInPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
