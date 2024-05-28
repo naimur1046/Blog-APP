@@ -5,10 +5,12 @@ import DashBoard from "./Pages/DashBoard";
 import Project from "./Pages/Project";
 import SignUpPage from "./Pages/SignUpPage";
 import SignInPage from "./Pages/SignInPage";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
