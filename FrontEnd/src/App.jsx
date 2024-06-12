@@ -3,7 +3,7 @@ import HandlePage from "./Components/HandlePage/HandlePage";
 
 function App() {
   return (
-    <div>
+    <div className="font-roboto">
       <BrowserRouter>
         <HandlePage />
       </BrowserRouter>
