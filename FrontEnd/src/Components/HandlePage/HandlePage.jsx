@@ -3,10 +3,10 @@ import React from "react";
 import { Layout } from "./Layout";
 import { Route, Routes } from "react-router-dom";
 
-import HomePage from "../../MainPages/HomePage";
 import About from "../../MainPages/About";
 import Project from "../../MainPages/Project";
 import DashBoard from "../../MainPages/DashBoard";
+import HomePage from "../../MainPages/Home/HomePage";
 
 const HandlePage = () => {
   return (
